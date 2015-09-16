@@ -2,14 +2,14 @@
   "app": {
     "parameters": {
       "textBody": {
-        "label": "Your text",
-        "helpText": "Placeholders allowed, but not HTML."
+        "label": "Metniniz",
+        "helpText": "Yer tutuculara izin verilir, ancak HTML'ye verilmez."
       },
       "openLinksInTabs": {
-        "label": "Disable opening links in a new browser tab",
-        "helpText": "Any auto linked URLs will no longer open in a new browser tab."
+        "label": "Yeni bir tarayıcı sekmesinde bağlantıların açılmasını devre dışı bırak",
+        "helpText": "Otomatik bağlantılı URL’lerin hiçbiri yeni bir tarayıcı sekmesinde açılmayacaktır."
       },
-      "description": "Any text you want, with data placeholders."
+      "description": "Veri yer tutucularıyla birlikte, istediğiniz herhangi bir metin."
     }
   }
 }

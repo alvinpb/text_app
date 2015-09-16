@@ -2,14 +2,14 @@
   "app": {
     "parameters": {
       "textBody": {
-        "label": "Your text",
-        "helpText": "Placeholders allowed, but not HTML."
+        "label": "Din text",
+        "helpText": "Platshållare kan användas, men inte HTML."
       },
       "openLinksInTabs": {
-        "label": "Disable opening links in a new browser tab",
-        "helpText": "Any auto linked URLs will no longer open in a new browser tab."
+        "label": "Avaktivera länköppning på en ny webbläsarflik",
+        "helpText": "Automatiskt länkade webbadresser kommer inte längre att öppnas på en ny webbläsarflik."
       },
-      "description": "Any text you want, with data placeholders."
+      "description": "Valfri text, med platshållare för data."
     }
   }
 }
