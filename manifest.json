@@ -1,15 +1,16 @@
 {
   "author": {
-    "name":  "Zendesk",
+    "name": "Zendesk",
     "email": "support@zendesk.com"
   },
-
-  "location": ["ticket_sidebar", "new_ticket_sidebar"],
+  "location": [
+    "ticket_sidebar",
+    "new_ticket_sidebar"
+  ],
   "defaultLocale": "en",
   "private": false,
   "frameworkVersion": "1.0",
-  "version": "1.0.1",
-
+  "version": "1.0.2",
   "parameters": [
     {
       "name": "textBody",
