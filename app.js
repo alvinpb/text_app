@@ -78,8 +78,8 @@
       try {
         // handle custom fields first
         if (this.stringStartsWith(placeholderStripped, "ticket.ticket_field")) {
-          var index = text.lastIndexOf("_");
-          var customfieldid = text.substring(index+1));
+          var index = placeholderStripped.lastIndexOf("_");
+          var customfieldid = placeholderStripped.substring(index+1);
           return this.ticket().customField("custom_field_" + customfieldid);
         }
         
