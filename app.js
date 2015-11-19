@@ -49,7 +49,7 @@
 
           console.log(this.settings.openLinksInTabs);
 
-      return string.replace(urlPattern, "$1<a href='$2' target='" + linkTarget + "'>$2</a>");
+      return string.replace(urlPattern, "$1<a href='$2' target='" + linkTarget + "'>Link</a>");
     },
 
     convertPlaceholders: function(string) {
