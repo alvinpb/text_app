@@ -69,9 +69,20 @@
       return string;
 
     },
+    
+    stringStartsWith (string, prefix) {
+      return string.slice(0, prefix.length) == prefix;
+    },
 
     matchPlaceholder: function(placeholderStripped) {
       try {
+        // handle custom fields first
+        if (this.stringStartsWith(placeholderStripped, "ticket.ticket_field")) {
+          var index = text.lastIndexOf("_");
+          var customfieldid = text.substring(index+1));
+          return this.ticket.customField("custom_field_" + customfieldid);
+        }
+        
         switch(placeholderStripped) {
           case 'ticket.id':
             return this.ticket().id();
